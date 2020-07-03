@@ -1,15 +1,13 @@
-# Site settings
-title: Jekyll Doc Theme
+title: MCGalaxy - A ClassiCube server software
 email: your-email@domain.com
 description: >
-  Jekyll Template for Project Websites
-  providing documentation and blog post pages.
+  MCGalaxy
 lang: en-US
 
-baseurl: "/jekyll-doc-theme" # the subpath of your site, e.g. /blog/
-url: https://aksakalli.github.io/jekyll-doc-theme # the base hostname & protocol for your site
-git_address: https://github.com/aksakalli/jekyll-doc-theme
-git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
+baseurl: "/jekyll-docs"
+url: https://venksociety.github.io/jekyll-docs
+git_address: https://github.com/venksociety/jekyll-docs
+git_edit_address: https://github.com/venksociety/jekyll-docs/blob/gh-pages
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
