@@ -1,7 +1,7 @@
-title: MCGalaxy - A ClassiCube server software
+title: MCGalaxy
 email: your-email@domain.com
 description: >
-  MCGalaxy
+   A ClassiCube server software
 lang: en-US
 
 baseurl: "/jekyll-docs"

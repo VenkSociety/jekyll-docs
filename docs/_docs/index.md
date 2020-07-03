@@ -4,47 +4,72 @@ permalink: /docs/home/
 redirect_from: /docs/index.html
 ---
 
+Welcome to the MCGalaxy documentation.
+
+## About
+MCGalaxy is a fully featured and customisable **[ClassiCube](https://classicube.net) Server Software** based on MCForge/MCLawl.
+
+## Installation
+### Release
+Download the latest MCGalaxy release [from here](https://github.com/UnknownShadow200/MCGalaxy/releases).
+* Windows: You need to install .NET framework 4.0. Windows 8/10 already have this included.
+* Linux/macOS: You need to install the [Mono framework](https://www.mono-project.com).
+
+Run **MCGalaxy.exe** for a graphical interface, or run **MCGalaxyCLI.exe** for command line only.
+
+### Compiling  yourself
+In order to compile MCGalaxy, you will need a C# compiler software. E.g, [Visual Studio](https://visualstudio.microsoft.com/) or [SharpDevelop](https://github.com/icsharpcode/SharpDevelop).
+1. Open **MCGalaxy.sln**
+2. Compile the solution*
+
+*Note that on some computers **GUI/Window/Window.resx** is blocked. You may need to right-click on the file and click on **properties**. From there you will be able to unblock it.
+
 ## Getting started
+### Joining your server
+Run **MCGalaxy.exe** or **MCGalaxyCLI.exe** firstly. You'll see something like:
+![opt3](https://user-images.githubusercontent.com/6509348/60258728-0e05bd00-9919-11e9-9ae8-f1262719cd50.png)
 
-[GitHub Pages](https://pages.github.com) can automatically generate and serve the website for you.
-Let's say you have a username/organisation `my-org` and project `my-proj`; if you locate Jekyll source under `docs` folder of master branch in your repo `github.com/my-org/my-proj`, the website will be served on `my-org.github.io/my-proj`.
-The good thing about coupling your documentation with the source repo is, whenever you merge features with regarding content to master branch, it will also be published on the webpage instantly.
+If you are signed in to classicube.net, you can copy this URL straight into your web browser and start playing.
 
-1. Just [download the source](https://github.com/aksakalli/jekyll-doc-theme/archive/gh-pages.zip) into your repo under `docs` folder.
-2. Edit site settings in  `_config.yml` file according to your project. !!! `baseurl` should be your website's relative URI like `/my-proj` !!!
-3. Replace `favicon.ico` and `assets/img/logonav.png` with your own logo.
+#### Joining from the desktop client
+Click **Direct connect** at the main menu.
+![opt1](https://user-images.githubusercontent.com/6509348/60258725-0e05bd00-9919-11e9-8f8c-fbbdc52f04f9.png)
 
-## Writing content
+Type your username into *Username*, ```127.0.0.1:25565``` into *IP:Port*, and leave *Mppass* blank. Then click **Connect**.
+![opt2](https://user-images.githubusercontent.com/6509348/60258727-0e05bd00-9919-11e9-890d-5c25cdf385c1.png)
 
-### Docs
+#### Making yourself owner
+After joining, you will want to rank yourself owner so you can use all commands.
 
-Docs are [collections](https://jekyllrb.com/docs/collections/) of pages stored under `_docs` folder. To create a new page:
+Type ```/rank [your account] superop``` into the bottom text box, then press Enter.
 
-**1.** Create a new Markdown as `_docs/my-page.md` and write [front matter](https://jekyllrb.com/docs/frontmatter/) & content such as:
+![opt4](https://user-images.githubusercontent.com/6509348/60258729-0e9e5380-9919-11e9-921d-ea7e0c4365af.png)
 
-```
----
-title: My Page
-permalink: /docs/my-page/
----
 
-Hello World!
-```
+### Letting others join your server
+#### LAN players
+You need to find out your LAN/local IP address.
+*  Windows: Type ```ipconfig``` into **Command Prompt**. Look for ```IPv4 address``` in the output.
 
-**2.** Add the pagename to `_data/docs.yml` file in order to list in docs navigation panel:
+To join from a web browser, add ```?ip=[lan ip]``` to the server's URL.\
+(e.g. http://www.classicube.net/server/play/d1362e7fee1a54365514712d007c8799?ip=192.168.1.30)
 
-```
-- title: My Group Title
-  docs:
-  - my-page
-```
+To join from the desktop client, **Direct connect** to ```[lan ip]:25565``` instead. (e.g. ```192.168.1.30:25565```)
 
-### Blog posts
 
-Add a new Markdown file such as `2017-05-09-my-post.md` and write the content similar to other post examples.
+#### Across the internet
+You need to port forward your router. Players can then join by entering the server URL into their web browser.
 
-### Pages
+For the desktop client:
+* Click **Sign in**.
+* Type/paste the hash (e.g. ```d1362e7fee1a54365514712d007c8799```) into the *classicube.net/server/play* text box.
+* Click **Connect**.
 
-The homepage is located under `index.html` file. You can change the content or design completely different welcome page for your taste. (You can use [bootstrap components](http://getbootstrap.com/components/))
 
-In order to add a new page, create a new `.html` or `.md` (markdown) file under root directory and link it in `_includes/topnav.html`.
+#### Showing your server in the classicube.net server list
+Click **Settings** in the MCGalaxy window, then tick the **Public** checkbox. Then click **Save**.
+
+This makes your server appear in the server list on classicube.net and in the desktop client.
+
+### Copyright/License
+See LICENSE for MCGalaxy license, and license.txt for code used from other software.
