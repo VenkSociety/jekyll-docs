@@ -4,10 +4,10 @@ description: >
    A ClassiCube server software
 lang: en-US
 
-baseurl: "/jekyll-docs"
-url: https://venksociety.github.io/jekyll-docs
-git_address: https://github.com/venksociety/jekyll-docs
-git_edit_address: https://github.com/venksociety/jekyll-docs/blob/gh-pages
+baseurl: "/MCGalaxy-Docs"
+url: https://VenkSociety.github.io/MCGalaxy-Docs
+git_address: https://github.com/VenkSociety/MCGalaxy-Docs
+git_edit_address: https://github.com/VenkSociety/MCGalaxy-Docs/blob/gh-pages
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
