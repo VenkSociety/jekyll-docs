@@ -7,7 +7,7 @@ redirect_from: /docs/index.html
 Welcome to the MCGalaxy documentation.
 
 ## About
-MCGalaxy is a fully featured and customisable **[ClassiCube](https://classicube.net) Server Software** based on MCForge/MCLawl.
+MCGalaxy is a fully-featured and customisable **[ClassiCube](https://classicube.net) Server Software** based on MCForge/MCLawl.
 
 ## Installation
 ### Release

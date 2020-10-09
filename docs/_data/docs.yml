@@ -1,11 +1,8 @@
 - title: Getting Started
   docs:
   - home
-  - themes
-  - customization
+  - FAQ
 
-- title: Examples
+- title: Classes
   docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+  - test
